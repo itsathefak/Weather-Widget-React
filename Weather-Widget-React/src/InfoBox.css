@@ -1,0 +1,40 @@
+.info-box {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.weather-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+}
+
+.weather-card .MuiCardContent-root {
+    padding: 1.5rem;
+}
+
+.weather-card .MuiTypography-root {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.weather-card .MuiCardMedia-root {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
